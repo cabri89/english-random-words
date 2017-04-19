@@ -62,7 +62,7 @@ angular.module('english',[])
                 finishWord();
             }
         }else {
-            alert("Veuillez importer un nouveau fichier.")
+            document.getElementById('whatWord').innerHTML = "Veuillez importer un nouveau fichier.";
         }
     }
 
@@ -83,7 +83,6 @@ angular.module('english',[])
     }
 
     $scope.resetWithLooseWords = function() {
-        console.log(saveWordsLoose);
         angular.copy(saveWordsLoose,$scope.words)
         $scope.allWordsStats = [];
     }
