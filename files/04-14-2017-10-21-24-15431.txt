@@ -1,0 +1,10 @@
+[
+   {
+      "english":"car",
+      "french":"voiture"
+   },
+   {
+      "english":"house",
+      "french":"maison"
+   }
+]

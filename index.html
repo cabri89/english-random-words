@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="angular.min.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title></title>
+</head>
+<body>
+
+
+    <div ng-app="english" class="">
+        <div ng-controller="randomwords" class="container">
+            <h1>English test</h1>
+
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="file" class="col-sm-2 control-label">Fichier</label>
+                    <div class="col-sm-10">
+                        <input type="file" class="form-control" onchange="angular.element(this).scope().loadFile()" id="file" name="htmlFile" value="">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="prop" class="col-sm-2 control-label">Proposition</label>
+                    <div class="col-sm-10">
+                        <input type="text" id="prop" class="form-control" ng-model="wordTest" ng-change="testWord()" value="">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="button" class="btn btn-default" name="button" ng-click="newWord(1)">Passer</button>
+                        <button type="button"  class="btn btn-default" name="button" ng-click="resetParty()">Recommencer</button>
+                        <button type="button"  class="btn btn-default" name="button" ng-click="resetWithLooseWords()">Recommencer avec les mots passés</button>
+                    </div>
+                </div>
+            </form>
+            <p class="bs-callout bs-callout-info">
+                <h4 ng-model="whatWord" id="whatWord"></h4>
+            </p>
+
+            <table class="table table-striped">
+                <caption>Tableau récapitulatif</caption>
+                <thead>
+                    <tr>
+                        <th>Anglais</th>
+                        <th>Français</th>
+                    </tr>
+                </thead>
+                <tr ng-repeat="wordStat in allWordsStats | orderBy : 'loose' track by $index" class="{{wordStat.loose}}">
+                    <td>{{wordStat.english}}</td>
+                    <td>{{wordStat.french}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="https://npmcdn.com/bootstrap@4.0.0-alpha.5/dist/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js" charset="utf-8"></script>
+</body>
+</html>
