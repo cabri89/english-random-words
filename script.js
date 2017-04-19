@@ -22,6 +22,29 @@ angular.module('english',[])
         {
             resTopScore = evt;
             $scope.readTextFile("files/"+resTopScore.srcElement.responseText);
+            deleteFile("files/"+resTopScore.srcElement.responseText);
+        }
+
+        function handleError(evt) {
+        }
+
+        xhr.addEventListener('load', handleLoad);
+        xhr.addEventListener('error', handleError);
+        xhr.send(form);
+    }
+
+    function deleteFile(fileName) {
+        var xhr, form,resTopScore;
+
+        xhr = new XMLHttpRequest();
+        xhr.open('POST', 'upload.php');
+
+        form = new FormData();
+        form.append('delete',fileName);
+
+        function handleLoad(evt)
+        {
+            console.log(resTopScore);
         }
 
         function handleError(evt) {
@@ -85,6 +108,7 @@ angular.module('english',[])
     $scope.resetWithLooseWords = function() {
         angular.copy(saveWordsLoose,$scope.words)
         $scope.allWordsStats = [];
+        saveWordsLoose = [];
     }
 
     finishWord = function() {

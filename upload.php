@@ -12,4 +12,9 @@ if (isset($_FILES["htmlFile"])) {
     }
 }
 
+if (isset($_POST["delete"])) {
+    unlink($_POST["delete"]);
+    echo "ok";
+}
+
 ?>
