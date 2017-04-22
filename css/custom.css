@@ -13,3 +13,10 @@ line-height: 2.8;
 .whatword h4{
     line-height: 2.8;
 }
+
+.lang{
+    width: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 235px;
+}

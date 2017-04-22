@@ -5,7 +5,7 @@
    },
    {
       "english":"bike",
-      "french":"velo"
+      "french":"v'è^élo"
    },
    {
       "english":"road",

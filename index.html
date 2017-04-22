@@ -39,7 +39,22 @@
                         <button type="button"  class="btn btn-default" name="button" ng-click="resetWithLooseWords()">Recommencer avec les mots passés</button>
                     </div>
                 </div>
+
+                <div class="form-group lang">
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-primary active langRadio lang0" ng-click="changeLangWord(0)">
+                            <input type="radio" name="options" id="option1" autocomplete="off" checked> Anglais
+                        </label>
+                        <label class="btn btn-primary langRadio lang1" ng-click="changeLangWord(1)">
+                            <input type="radio" name="options" id="option2" autocomplete="off"> Français
+                        </label>
+                        <label class="btn btn-primary langRadio lang2" ng-click="changeLangWord(2)">
+                            <input type="radio" name="options" id="option3" autocomplete="off"> Les deux
+                        </label>
+                    </div>
+                </div>
             </form>
+
             <div class="whatword">
                 <h4 id="whatWord">Veuillez importer un nouveau fichier.</h4>
             </div>
@@ -62,6 +77,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
     <script src="https://npmcdn.com/bootstrap@4.0.0-alpha.5/dist/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-notify.min.js"></script>
     <script src="js/bootstrap.min.js" charset="utf-8"></script>
 </body>
 </html>
