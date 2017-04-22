@@ -132,11 +132,11 @@ angular.module('english',[])
 
                 if (lang == 2) {
                     if (randomLang == 0) {
-                        if ($scope.wordTest == $scope.whatWord.french) {
+                        if ($scope.wordTest == $scope.whatWord.english) {
                             successWord = 1;
                         }
                     }else {
-                        if ($scope.wordTest == $scope.whatWord.english) {
+                        if ($scope.wordTest == $scope.whatWord.french) {
                             successWord = 1;
                         }
                     }
