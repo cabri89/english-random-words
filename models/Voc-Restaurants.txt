@@ -1,0 +1,198 @@
+[
+{
+"english":"appertizers",
+"french":"amuse-bouches"
+},
+{
+"english":"bake",
+"french":"cuire au four"
+},
+{
+"english":"beverage",
+"french":"boisson"
+},
+{
+"english":"check",
+"french":"addition"
+},
+{
+"english":"chef",
+"french":"chef"
+},
+{
+"english":"china",
+"french":"porcelaine"
+},
+{
+"english":"chopped",
+"french":"haché"
+},
+{
+"english":"clear the table",
+"french":"débarrasser la table"
+},
+{
+"english":"cook",
+"french":"cuisinier, cuisiner"
+},
+{
+"english":"cutlery",
+"french":"couverts"
+},
+{
+"english":"dessert",
+"french":"dessert"
+},
+{
+"english":"diced",
+"french":"coupé en dés"
+},
+{
+"english":"dish",
+"french":"plat"
+},
+{
+"english":"flavor",
+"french":"parfum, arôme"
+},
+{
+"english":"fork",
+"french":"fourchette"
+},
+{
+"english":"french fries",
+"french":"frites"
+},
+{
+"english":"helping",
+"french":"portion"
+},
+{
+"english":"knife",
+"french":"couteau"
+},
+{
+"english":"main course",
+"french":"plat principal"
+},
+{
+"english":"maître d'",
+"french":"maître d'hôtel"
+},
+{
+"english":"meal",
+"french":"repas"
+},
+{
+"english":"medium",
+"french":"à point"
+},
+{
+"english":"menu",
+"french":"carte"
+},
+{
+"english":"napkin",
+"french":"serviette de table"
+},
+{
+"english":"order",
+"french":"commande, commander"
+},
+{
+"english":"oven",
+"french":"four"
+},
+{
+"english":"pan",
+"french":"casserole"
+},
+{
+"english":"plate",
+"french":"assiette"
+},
+{
+"english":"pour",
+"french":"verser"
+},
+{
+"english":"rare",
+"french":"saignant"
+},
+{
+"english":"recipe",
+"french":"recette"
+},
+{
+"english":"set the table",
+"french":"mettre la table"
+},
+{
+"english":"side order",
+"french":"garniture, portion d'accompagnement"
+},
+{
+"english":"silver",
+"french":"argenterie"
+},
+{
+"english":"slice",
+"french":"tranche, trancher"
+},
+{
+"english":"specialty",
+"french":"spécialité"
+},
+{
+"english":"spicy",
+"french":"épicé"
+},
+{
+"english":"starter",
+"french":"entrée"
+},
+{
+"english":"take away",
+"french":"à emporter"
+},
+{
+"english":"taste",
+"french":"goût, goûter"
+},
+{
+"english":"tasteless",
+"french":"insipide"
+},
+{
+"english":"tip",
+"french":"pourboire"
+},
+{
+"english":"today's special",
+"french":"plat du jour"
+},
+{
+"english":"assaisonnement",
+"french":"topping"
+},
+{
+"english":"tray",
+"french":"plateau"
+},
+{
+"english":"utensil",
+"french":"ustensile"
+},
+{
+"english":"waiter",
+"french":"serveur"
+},
+{
+"english":"well done",
+"french":"bien cuit"
+},
+{
+"english":"wine list",
+"french":"carte des vins"
+}
+]

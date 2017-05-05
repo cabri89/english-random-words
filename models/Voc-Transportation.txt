@@ -1,0 +1,310 @@
+[
+{
+"english":"aircraft",
+"french":"avion"
+},
+{
+"english":"airline",
+"french":"compagnie aérienne"
+},
+{
+"english":"airline ticket counter",
+"french":"comptoir d'une compagnie aérienne"
+},
+{
+"english":"aisle",
+"french":"couloir"
+},
+{
+"english":"announcement",
+"french":"annonce, avis"
+},
+{
+"english":"arrival",
+"french":"arrivée"
+},
+{
+"english":"baggage claim",
+"french":"lieu de récupération des bagages"
+},
+{
+"english":"board",
+"french":"monter à bord"
+},
+{
+"english":"boarding pass",
+"french":"carte d'embarquement"
+},
+{
+"english":"book",
+"french":"réserver"
+},
+{
+"english":"bridge",
+"french":"pont"
+},
+{
+"english":"cab",
+"french":"taxi"
+},
+{
+"english":"cabin",
+"french":"carlingue"
+},
+{
+"english":"cabin attendant",
+"french":"membre d'équipage"
+},
+{
+"english":"call at",
+"french":"faire escale à"
+},
+{
+"english":"car",
+"french":"wagon"
+},
+{
+"english":"carrier",
+"french":"transporteur"
+},
+{
+"english":"cart",
+"french":"chariot"
+},
+{
+"english":"check in",
+"french":"faire enregistrer ses bagages"
+},
+{
+"english":"commute",
+"french":"faire la navette domicile travail"
+},
+{
+"english":"concourse",
+"french":"hall"
+},
+{
+"english":"connecting flight",
+"french":"vol de correspondance"
+},
+{
+"english":"connecting passenger",
+"french":"passager en transit"
+},
+{
+"english":"crew",
+"french":"équipage"
+},
+{
+"english":"cruising altitude",
+"french":"altitude de croisière"
+},
+{
+"english":"customs",
+"french":"douane"
+},
+{
+"english":"delay",
+"french":"retard"
+},
+{
+"english":"departure",
+"french":"départ"
+},
+{
+"english":"duty-free",
+"french":"hors-taxe"
+},
+{
+"english":"empty",
+"french":"vide"
+},
+{
+"english":"fare",
+"french":"prix du billet"
+},
+{
+"english":"flight",
+"french":"vol"
+},
+{
+"english":"flight attendant",
+"french":"membre d'équipage"
+},
+{
+"english":"flight deck",
+"french":"cabine de pilotage"
+},
+{
+"english":"freight",
+"french":"fret"
+},
+{
+"english":"front",
+"french":"avant"
+},
+{
+"english":"full",
+"french":"plein"
+},
+{
+"english":"get in",
+"french":"monter"
+},
+{
+"english":"get off",
+"french":"descendre"
+},
+{
+"english":"jet-lag",
+"french":"décalage horaire"
+},
+{
+"english":"land",
+"french":"atterrir"
+},
+{
+"english":"landing card",
+"french":"carte de débarquement"
+},
+{
+"english":"lounge",
+"french":"salon"
+},
+{
+"english":"luggage",
+"french":"bagages"
+},
+{
+"english":"luggage rack, overhead compartment",
+"french":"porte-bagages"
+},
+{
+"english":"miss",
+"french":"rater"
+},
+{
+"english":"network",
+"french":"réseau"
+},
+{
+"english":"nonstop",
+"french":"sans escale"
+},
+{
+"english":"on time",
+"french":"à l'heure"
+},
+{
+"english":"one-way ticket",
+"french":"aller-simple"
+},
+{
+"english":"package tour",
+"french":"voyage organisé"
+},
+{
+"english":"passenger",
+"french":"passager"
+},
+{
+"english":"platform",
+"french":"quai"
+},
+{
+"english":"proceed through gate",
+"french":"se présenter à la porte d'embarquement"
+},
+{
+"english":"railroad",
+"french":"voie ferréé"
+},
+{
+"english":"rear",
+"french":"arrière"
+},
+{
+"english":"repairs",
+"french":"réparations"
+},
+{
+"english":"retrieve",
+"french":"récupérer"
+},
+{
+"english":"resume",
+"french":"recommencer, reprendre"
+},
+{
+"english":"ride",
+"french":"trajet, voyager"
+},
+{
+"english":"rider",
+"french":"passager"
+},
+{
+"english":"round trip ticket",
+"french":"aller-retour"
+},
+{
+"english":"route",
+"french":"itinéraire"
+},
+{
+"english":"row",
+"french":"rangée"
+},
+{
+"english":"runway",
+"french":"piste"
+},
+{
+"english":"rush hour",
+"french":"heure de pointe"
+},
+{
+"english":"seat",
+"french":"siège"
+},
+{
+"english":"seatbelt",
+"french":"ceinture de sécurité"
+},
+{
+"english":"shuttle",
+"french":"navette"
+},
+{
+"english":"stopover",
+"french":"escale"
+},
+{
+"english":"stow",
+"french":"arrimer"
+},
+{
+"english":"suitcase",
+"french":"valise"
+},
+{
+"english":"take off",
+"french":"décoller"
+},
+{
+"english":"track",
+"french":"voie"
+},
+{
+"english":"trip",
+"french":"voyage"
+},
+{
+"english":"trolley",
+"french":"chariot"
+},
+{
+"english":"window",
+"french":"hublot"
+}
+]

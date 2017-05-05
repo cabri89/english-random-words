@@ -1,0 +1,278 @@
+[
+{
+"english":"abroad",
+"french":"à l'étranger"
+},
+{
+"english":"accommodate",
+"french":"loger"
+},
+{
+"english":"accommodation",
+"french":"logement"
+},
+{
+"english":"attend",
+"french":"assister à"
+},
+{
+"english":"attendee",
+"french":"participant"
+},
+{
+"english":"audience",
+"french":"public, auditoire"
+},
+{
+"english":"banquet",
+"french":"banquet"
+},
+{
+"english":"bellman",
+"french":"groom"
+},
+{
+"english":"booked up",
+"french":"complet"
+},
+{
+"english":"booth",
+"french":"cabine"
+},
+{
+"english":"border",
+"french":"frontière"
+},
+{
+"english":"caterer",
+"french":"traiteur"
+},
+{
+"english":"check in",
+"french":"se présenter à l'hôtel"
+},
+{
+"english":"check out",
+"french":"régler sa facture en quittant l'hôtel"
+},
+{
+"english":"check-out time",
+"french":"heure où l'on doit libérer la chambre"
+},
+{
+"english":"concierge",
+"french":"réceptionniste"
+},
+{
+"english":"conference hall",
+"french":"salle de conférence"
+},
+{
+"english":"convention",
+"french":"congrès"
+},
+{
+"english":"conventioner",
+"french":"congressiste"
+},
+{
+"english":"crowded",
+"french":"bondé, rempli"
+},
+{
+"english":"cruise",
+"french":"croisière"
+},
+{
+"english":"display",
+"french":"étalage, exposition"
+},
+{
+"english":"doorman",
+"french":"portier"
+},
+{
+"english":"entertainment",
+"french":"divertissement"
+},
+{
+"english":"exhibit",
+"french":"exposer, présenter"
+},
+{
+"english":"exhibition",
+"french":"exposition"
+},
+{
+"english":"fair",
+"french":"foire"
+},
+{
+"english":"front desk",
+"french":"réception"
+},
+{
+"english":"guest",
+"french":"hôte, client"
+},
+{
+"english":"guidebook",
+"french":"guide"
+},
+{
+"english":"hotel clerk",
+"french":"employé de l'hôtel"
+},
+{
+"english":"housekeeper",
+"french":"gouvernante"
+},
+{
+"english":"indoor pool",
+"french":"piscine couverte"
+},
+{
+"english":"lecture",
+"french":"conférence"
+},
+{
+"english":"lobby",
+"french":"hall"
+},
+{
+"english":"location",
+"french":"emplacement"
+},
+{
+"english":"luxury",
+"french":"luxe"
+},
+{
+"english":"newsstand",
+"french":"kiosque à journaux"
+},
+{
+"english":"overlook",
+"french":"surplomber"
+},
+{
+"english":"overnight",
+"french":"du soir au matin"
+},
+{
+"english":"overseas",
+"french":"à l'étranger"
+},
+{
+"english":"pack",
+"french":"paquet, emballer, faire ses bagages"
+},
+{
+"english":"packed",
+"french":"bondé, plein"
+},
+{
+"english":"pass",
+"french":"laisser-passer"
+},
+{
+"english":"peak-season",
+"french":"haute-saison"
+},
+{
+"english":"pillow",
+"french":"oreiller"
+},
+{
+"english":"porter",
+"french":"concierge"
+},
+{
+"english":"queue",
+"french":"file d'attente, faire la queue"
+},
+{
+"english":"resort",
+"french":"station"
+},
+{
+"english":"room service",
+"french":"service d'étage"
+},
+{
+"english":"safe",
+"french":"coffre-fort"
+},
+{
+"english":"schedule",
+"french":"programme, horaire"
+},
+{
+"english":"seminar",
+"french":"séminaire"
+},
+{
+"english":"show hall",
+"french":"salle de spectacle"
+},
+{
+"english":"sightseeing",
+"french":"tourisme"
+},
+{
+"english":"single",
+"french":"chambre simple"
+},
+{
+"english":"smoke free",
+"french":"non-fumeur"
+},
+{
+"english":"soap",
+"french":"savon"
+},
+{
+"english":"stay",
+"french":"séjour, séjourner"
+},
+{
+"english":"time zone",
+"french":"fuseau horaire"
+},
+{
+"english":"tour",
+"french":"excursion"
+},
+{
+"english":"towel",
+"french":"serviette de bain"
+},
+{
+"english":"trade fair",
+"french":"foire commerciale"
+},
+{
+"english":"trawel allowance",
+"french":"frais de déplacement"
+},
+{
+"english":"vacancy",
+"french":"chambre libre"
+},
+{
+"english":"valet parking",
+"french":"service de garage de voitures"
+},
+{
+"english":"valuables",
+"french":"objets de valeur"
+},
+{
+"english":"venue",
+"french":"lieu"
+},
+{
+"english":"voucher",
+"french":"bon d'échange"
+}
+]

@@ -1,0 +1,962 @@
+[
+{
+"english":"abroad",
+"french":"à l'étranger"
+},
+{
+"english":"accommodate",
+"french":"loger"
+},
+{
+"english":"accommodation",
+"french":"logement"
+},
+{
+"english":"attend",
+"french":"assister à"
+},
+{
+"english":"attendee",
+"french":"participant"
+},
+{
+"english":"audience",
+"french":"public, auditoire"
+},
+{
+"english":"banquet",
+"french":"banquet"
+},
+{
+"english":"bellman",
+"french":"groom"
+},
+{
+"english":"booked up",
+"french":"complet"
+},
+{
+"english":"booth",
+"french":"cabine"
+},
+{
+"english":"border",
+"french":"frontière"
+},
+{
+"english":"caterer",
+"french":"traiteur"
+},
+{
+"english":"check in",
+"french":"se présenter à l'hôtel"
+},
+{
+"english":"check out",
+"french":"régler sa facture en quittant l'hôtel"
+},
+{
+"english":"check-out time",
+"french":"heure où l'on doit libérer la chambre"
+},
+{
+"english":"concierge",
+"french":"réceptionniste"
+},
+{
+"english":"conference hall",
+"french":"salle de conférence"
+},
+{
+"english":"convention",
+"french":"congrès"
+},
+{
+"english":"conventioner",
+"french":"congressiste"
+},
+{
+"english":"crowded",
+"french":"bondé, rempli"
+},
+{
+"english":"cruise",
+"french":"croisière"
+},
+{
+"english":"display",
+"french":"étalage, exposition"
+},
+{
+"english":"doorman",
+"french":"portier"
+},
+{
+"english":"entertainment",
+"french":"divertissement"
+},
+{
+"english":"exhibit",
+"french":"exposer, présenter"
+},
+{
+"english":"exhibition",
+"french":"exposition"
+},
+{
+"english":"fair",
+"french":"foire"
+},
+{
+"english":"front desk",
+"french":"réception"
+},
+{
+"english":"guest",
+"french":"hôte, client"
+},
+{
+"english":"guidebook",
+"french":"guide"
+},
+{
+"english":"hotel clerk",
+"french":"employé de l'hôtel"
+},
+{
+"english":"housekeeper",
+"french":"gouvernante"
+},
+{
+"english":"indoor poll",
+"french":"piscine couverte"
+},
+{
+"english":"lecture",
+"french":"conférence"
+},
+{
+"english":"lobby",
+"french":"hall"
+},
+{
+"english":"location",
+"french":"emplacement"
+},
+{
+"english":"luxury",
+"french":"luxe"
+},
+{
+"english":"newsstand",
+"french":"kiosque à journaux"
+},
+{
+"english":"overlook",
+"french":"surplomber"
+},
+{
+"english":"overnight",
+"french":"du soir au matin"
+},
+{
+"english":"overseas",
+"french":"à l'étranger"
+},
+{
+"english":"pack",
+"french":"paquet, emballer, faire ses bagages"
+},
+{
+"english":"packed",
+"french":"bondé, plein"
+},
+{
+"english":"pass",
+"french":"laisser-passer"
+},
+{
+"english":"peak-season",
+"french":"haute-saison"
+},
+{
+"english":"pillow",
+"french":"oreiller"
+},
+{
+"english":"porter",
+"french":"concierge"
+},
+{
+"english":"queue",
+"french":"file d'attente, faire la queue"
+},
+{
+"english":"resort",
+"french":"station"
+},
+{
+"english":"room service",
+"french":"service d'étage"
+},
+{
+"english":"safe",
+"french":"coffre-fort"
+},
+{
+"english":"schedule",
+"french":"programme, horaire"
+},
+{
+"english":"seminar",
+"french":"séminaire"
+},
+{
+"english":"show hall",
+"french":"salle de spectacle"
+},
+{
+"english":"sightseeing",
+"french":"tourisme"
+},
+{
+"english":"single",
+"french":"chambre simple"
+},
+{
+"english":"smoke free",
+"french":"non-fumeur"
+},
+{
+"english":"soap",
+"french":"savon"
+},
+{
+"english":"stay",
+"french":"séjour, séjourner"
+},
+{
+"english":"time zone",
+"french":"fuseau horaire"
+},
+{
+"english":"tour",
+"french":"excursion"
+},
+{
+"english":"towel",
+"french":"serviette de bain"
+},
+{
+"english":"trade fair",
+"french":"foire commerciale"
+},
+{
+"english":"trawel allowance",
+"french":"frais de déplacement"
+},
+{
+"english":"vacancy",
+"french":"chambre libre"
+},
+{
+"english":"valet parking",
+"french":"service de garage de voitures"
+},
+{
+"english":"valuables",
+"french":"objets de valeur"
+},
+{
+"english":"venue",
+"french":"lieu"
+},
+{
+"english":"voucher",
+"french":"bon d'échange"
+},
+{
+"english":"appertizers",
+"french":"amuse-bouches"
+},
+{
+"english":"bake",
+"french":"cuire au four"
+},
+{
+"english":"beverage",
+"french":"boisson"
+},
+{
+"english":"check",
+"french":"addition"
+},
+{
+"english":"chef",
+"french":"chef"
+},
+{
+"english":"china",
+"french":"porcelaine"
+},
+{
+"english":"chopped",
+"french":"haché"
+},
+{
+"english":"clear the table",
+"french":"débarrasser la table"
+},
+{
+"english":"cook",
+"french":"cuisinier, cuisiner"
+},
+{
+"english":"cutlery",
+"french":"couverts"
+},
+{
+"english":"dessert",
+"french":"dessert"
+},
+{
+"english":"diced",
+"french":"coupé en dés"
+},
+{
+"english":"dish",
+"french":"plat"
+},
+{
+"english":"flavor",
+"french":"parfum, arôme"
+},
+{
+"english":"fork",
+"french":"fourchette"
+},
+{
+"english":"french fries",
+"french":"frites"
+},
+{
+"english":"helping",
+"french":"portion"
+},
+{
+"english":"knife",
+"french":"couteau"
+},
+{
+"english":"main course",
+"french":"plat principal"
+},
+{
+"english":"maître d'",
+"french":"maître d'hôtel"
+},
+{
+"english":"meal",
+"french":"repas"
+},
+{
+"english":"medium",
+"french":"à point"
+},
+{
+"english":"menu",
+"french":"carte"
+},
+{
+"english":"napkin",
+"french":"serviette de table"
+},
+{
+"english":"order",
+"french":"commande, commander"
+},
+{
+"english":"oven",
+"french":"four"
+},
+{
+"english":"pan",
+"french":"casserole"
+},
+{
+"english":"plate",
+"french":"assiette"
+},
+{
+"english":"pour",
+"french":"verser"
+},
+{
+"english":"rare",
+"french":"saignant"
+},
+{
+"english":"recipe",
+"french":"recette"
+},
+{
+"english":"set the table",
+"french":"mettre la table"
+},
+{
+"english":"side order",
+"french":"garniture, portion d'accompagnement"
+},
+{
+"english":"silver",
+"french":"argenterie"
+},
+{
+"english":"slice",
+"french":"tranche, trancher"
+},
+{
+"english":"specialty",
+"french":"spécialité"
+},
+{
+"english":"spicy",
+"french":"épicé"
+},
+{
+"english":"starter",
+"french":"entrée"
+},
+{
+"english":"take away",
+"french":"à emporter"
+},
+{
+"english":"taste",
+"french":"goût, goûter"
+},
+{
+"english":"tasteless",
+"french":"insipide"
+},
+{
+"english":"tip",
+"french":"pourboire"
+},
+{
+"english":"today's special",
+"french":"plat du jour"
+},
+{
+"english":"assaisonnement",
+"french":"topping"
+},
+{
+"english":"tray",
+"french":"plateau"
+},
+{
+"english":"utensil",
+"french":"ustensile"
+},
+{
+"english":"waiter",
+"french":"serveur"
+},
+{
+"english":"well done",
+"french":"bien cuit"
+},
+{
+"english":"wine list",
+"french":"carte des vins"
+},
+{
+"english":"black ice",
+"french":"verglas"
+},
+{
+"english":"blow",
+"french":"souffler"
+},
+{
+"english":"breeze",
+"french":"brise"
+},
+{
+"english":"bright",
+"french":"ensoleillé"
+},
+{
+"english":"chill",
+"french":"refroidissement"
+},
+{
+"english":"cloudy",
+"french":"nuageux"
+},
+{
+"english":"damp",
+"french":"humide"
+},
+{
+"english":"drought",
+"french":"sécheresse"
+},
+{
+"english":"dull",
+"french":"maussade"
+},
+{
+"english":"earthquake",
+"french":"tremblement de terre"
+},
+{
+"english":"flood",
+"french":"inondation"
+},
+{
+"english":"fog",
+"french":"brouillard"
+},
+{
+"english":"freeze",
+"french":"geler"
+},
+{
+"english":"frost",
+"french":"gelée"
+},
+{
+"english":"gale",
+"french":"coup de vent"
+},
+{
+"english":"gust",
+"french":"rafale"
+},
+{
+"english":"hail",
+"french":"grêle"
+},
+{
+"english":"hazard",
+"french":"danger"
+},
+{
+"english":"haze",
+"french":"brume légère"
+},
+{
+"english":"heat",
+"french":"chaleur"
+},
+{
+"english":"heat wave",
+"french":"vague de chaleur, canicule"
+},
+{
+"english":"icy",
+"french":"verglacé"
+},
+{
+"english":"lightning",
+"french":"foudre"
+},
+{
+"english":"lower seventies",
+"french":"environ 21°C"
+},
+{
+"english":"lull",
+"french":"accalmie"
+},
+{
+"english":"melt",
+"french":"fondre"
+},
+{
+"english":"mid sixties",
+"french":"environ 15°C"
+},
+{
+"english":"mild",
+"french":"doux"
+},
+{
+"english":"mist",
+"french":"brume"
+},
+{
+"english":"outdoors",
+"french":"dehors"
+},
+{
+"english":"overcast",
+"french":"couvert"
+},
+{
+"english":"pour",
+"french":"couler, ruisseler"
+},
+{
+"english":"rainfall",
+"french":"précipitation"
+},
+{
+"english":"ray",
+"french":"rayon"
+},
+{
+"english":"shine",
+"french":"briller"
+},
+{
+"english":"shower",
+"french":"averse"
+},
+{
+"english":"sleet",
+"french":"grésil"
+},
+{
+"english":"snowbound",
+"french":"bloqué par la neige"
+},
+{
+"english":"spell",
+"french":"période"
+},
+{
+"english":"storm",
+"french":"tempête"
+},
+{
+"english":"swelling",
+"french":"crue"
+},
+{
+"english":"thaw",
+"french":"dégeler"
+},
+{
+"english":"thunderstorm",
+"french":"orage"
+},
+{
+"english":"upper eighties",
+"french":"environ 32°C"
+},
+{
+"english":"wet",
+"french":"mouillé"
+},
+{
+"english":"aircraft",
+"french":"avion"
+},
+{
+"english":"airline",
+"french":"compagnie aérienne"
+},
+{
+"english":"airline ticket counter",
+"french":"comptoir d'une compagnie aérienne"
+},
+{
+"english":"aisle",
+"french":"couloir"
+},
+{
+"english":"announcement",
+"french":"annonce, avis"
+},
+{
+"english":"arrival",
+"french":"arrivée"
+},
+{
+"english":"baggage claim",
+"french":"lieu de récupération des bagages"
+},
+{
+"english":"board",
+"french":"monter à bord"
+},
+{
+"english":"boarding pass",
+"french":"carte d'embarquement"
+},
+{
+"english":"book",
+"french":"réserver"
+},
+{
+"english":"bridge",
+"french":"pont"
+},
+{
+"english":"cab",
+"french":"taxi"
+},
+{
+"english":"cabin",
+"french":"carlingue"
+},
+{
+"english":"cabin attendant",
+"french":"membre d'équipage"
+},
+{
+"english":"call at",
+"french":"faire escale à"
+},
+{
+"english":"car",
+"french":"wagon"
+},
+{
+"english":"carrier",
+"french":"transporteur"
+},
+{
+"english":"cart",
+"french":"chariot"
+},
+{
+"english":"check in",
+"french":"faire enregistrer ses bagages"
+},
+{
+"english":"commute",
+"french":"faire la navette domicile travail"
+},
+{
+"english":"concourse",
+"french":"hall"
+},
+{
+"english":"connecting flight",
+"french":"vol de correspondance"
+},
+{
+"english":"connecting passenger",
+"french":"passager en transit"
+},
+{
+"english":"crew",
+"french":"équipage"
+},
+{
+"english":"cruising altitude",
+"french":"altitude de croisière"
+},
+{
+"english":"customs",
+"french":"douane"
+},
+{
+"english":"delay",
+"french":"retard"
+},
+{
+"english":"departure",
+"french":"départ"
+},
+{
+"english":"duty-free",
+"french":"hors-taxe"
+},
+{
+"english":"empty",
+"french":"vide"
+},
+{
+"english":"fare",
+"french":"prix du billet"
+},
+{
+"english":"flight",
+"french":"vol"
+},
+{
+"english":"flight attendant",
+"french":"membre d'équipage"
+},
+{
+"english":"flight deck",
+"french":"cabine de pilotage"
+},
+{
+"english":"freight",
+"french":"fret"
+},
+{
+"english":"front",
+"french":"avant"
+},
+{
+"english":"full",
+"french":"plein"
+},
+{
+"english":"get in",
+"french":"monter"
+},
+{
+"english":"get off",
+"french":"descendre"
+},
+{
+"english":"jet-lag",
+"french":"décalage horaire"
+},
+{
+"english":"land",
+"french":"atterrir"
+},
+{
+"english":"landing card",
+"french":"carte de débarquement"
+},
+{
+"english":"lounge",
+"french":"salon"
+},
+{
+"english":"luggage",
+"french":"bagages"
+},
+{
+"english":"luggage rack, overhead compartment",
+"french":"porte-bagages"
+},
+{
+"english":"miss",
+"french":"rater"
+},
+{
+"english":"network",
+"french":"réseau"
+},
+{
+"english":"nonstop",
+"french":"sans escale"
+},
+{
+"english":"on time",
+"french":"à l'heure"
+},
+{
+"english":"one-way ticket",
+"french":"aller-simple"
+},
+{
+"english":"package tour",
+"french":"voyage organisé"
+},
+{
+"english":"passenger",
+"french":"passager"
+},
+{
+"english":"platform",
+"french":"quai"
+},
+{
+"english":"proceed through gate",
+"french":"se présenter à la porte d'embarquement"
+},
+{
+"english":"railroad",
+"french":"voie ferréé"
+},
+{
+"english":"rear",
+"french":"arrière"
+},
+{
+"english":"repairs",
+"french":"réparations"
+},
+{
+"english":"retrieve",
+"french":"récupérer"
+},
+{
+"english":"resume",
+"french":"recommencer, reprendre"
+},
+{
+"english":"ride",
+"french":"trajet, voyager"
+},
+{
+"english":"rider",
+"french":"passager"
+},
+{
+"english":"round trip ticket",
+"french":"aller-retour"
+},
+{
+"english":"route",
+"french":"itinéraire"
+},
+{
+"english":"row",
+"french":"rangée"
+},
+{
+"english":"runway",
+"french":"piste"
+},
+{
+"english":"rush hour",
+"french":"heure de pointe"
+},
+{
+"english":"seat",
+"french":"siège"
+},
+{
+"english":"seatbelt",
+"french":"ceinture de sécurité"
+},
+{
+"english":"shuttle",
+"french":"navette"
+},
+{
+"english":"stopover",
+"french":"escale"
+},
+{
+"english":"stow",
+"french":"arrimer"
+},
+{
+"english":"suitcase",
+"french":"valise"
+},
+{
+"english":"take off",
+"french":"décoller"
+},
+{
+"english":"track",
+"french":"voie"
+},
+{
+"english":"trip",
+"french":"voyage"
+},
+{
+"english":"trolley",
+"french":"chariot"
+},
+{
+"english":"window",
+"french":"hublot"
+}
+]
