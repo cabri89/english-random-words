@@ -27,7 +27,6 @@ angular.module('english',[])
                 resTopScore = evt;
                 $scope.readTextFile("files/"+resTopScore.srcElement.responseText);
                 deleteFile("files/"+resTopScore.srcElement.responseText);
-                notification("info", "Fichier importé avec succés.")
             }
 
             function handleError(evt) {
@@ -69,12 +68,18 @@ angular.module('english',[])
                 if(rawFile.readyState === 4){
                     if(rawFile.status === 200 || rawFile.status == 0){
                         var allText = rawFile.responseText;
-                        $scope.words = JSON.parse(allText);
-                        saveWords = JSON.parse(allText);
-                        $scope.allWordsStats = [];
-                        $('.langRadio' + lang).removeClass("active");
-                        $('.langRadio').addClass("disabled");
-                        $scope.newWord(0);
+                        try {
+                            $scope.words = JSON.parse(allText);
+                            saveWords = JSON.parse(allText);
+                            $scope.allWordsStats = [];
+                            $('.langRadio' + lang).removeClass("active");
+                            $('.langRadio').addClass("disabled");
+                            $scope.newWord(0);
+                            notification("success", "Fichier importé avec succés.")
+                        }
+                        catch (e) {
+                            notification("danger", "Problème avec le fichier, veuillez suivre les instructions.")
+                        }
                     }
                 }
             }

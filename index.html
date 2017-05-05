@@ -11,11 +11,92 @@
     <title></title>
 </head>
 <body>
-
-
     <div ng-app="english" class="">
         <div ng-controller="randomwords" class="container">
             <h1>English test</h1>
+
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Instructions
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            Pour utiliser l'application il faut :
+                            <ul>
+                                <li>Télécharger cet <a download target="_blank" href="exemple.txt">exemple</a></li>
+                                <li>Ouvrir le fichier avec BlocNote,</li>
+                                <li>Le remplir avec les mots voulus,</li>
+                                <li>Sauvegarder et importer le fichier dans l'application ci-dessous en cliquant sur "Choisissez un fichier".</li>
+                            </ul>
+
+                            En cas de problème avec le fichier :
+                            <ul>
+                                <li>Veillez à ce que le format du fichier soit bien un .txt</li>
+                                <li>Afin de vérifier le contenu du fichier, copier le contenu dans ce <a target="_blank" href="https://jsonformatter.curiousconcept.com/">site</a></li>
+                                <li>Cliquez sur "Process", et corrigez les erreurs s'il y en a.</li>
+                                <li>Si le problème n'est pas résolu <a href="mailto:cabridens@gmail.com?subject=feedback">contactez moi par email</a> ( cabridens@gmail.com ) </li>
+                            </ul>
+
+                            En cas de problème avec les accents :
+                            <ul>
+                                <li>Créer un fichier texte (.txt),</li>
+                                <li>Ouvrir le fichier avec BlocNote,</li>
+                                <li>Le remplir avec les mots voulus comme dans cet <a target="_blank" href="exemple.txt">exemple</a>,</li>
+                                <li>Enregistrer sous en choisisant le codage UTF-8 ( il est à ANSI par défaut ),</li>
+                                <li>Importer le fichier dans l'application ci-dessous en cliquant sur "Choisissez un fichier".</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Liste de vocabulaire
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body center">
+
+                            <a download target="_blank" href="models/Voc-Business-trips.txt">
+                                <button type="button" class="btn btn-default btn-lg">
+                                    <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Business trips
+                                </button>
+                            </a>
+
+                            <a download target="_blank" href="models/Voc-Restaurants.txt">
+                                <button type="button" class="btn btn-default btn-lg">
+                                    <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Restaurants
+                                </button>
+                            </a>
+
+                            <a download target="_blank" href="models/Voc-The-weather.txt">
+                                <button type="button" class="btn btn-default btn-lg">
+                                    <span class="glyphicon glyphicon-file" aria-hidden="true"></span> The weather
+                                </button>
+                            </a>
+
+                            <a download target="_blank" href="models/Voc-Transportation.txt">
+                                <button type="button" class="btn btn-default btn-lg">
+                                    <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Transportation
+                                </button>
+                            </a>
+
+                            <a download target="_blank" href="modelsVocabulaire complet.txt">
+                                <button type="button" class="btn btn-default btn-lg">
+                                    <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Les 4 réunis
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <form class="form-horizontal">
                 <div class="form-group">
