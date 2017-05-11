@@ -184,22 +184,22 @@ angular.module('english',[])
         }
 
         function notification(type,message) {
-            $.notify({
-                // options
-                icon: 'glyphicon glyphicon-' + type + '-sign',
-                message: message,
-            },{
-                // settings
-                element: 'body',
-                position: null,
-                type: type,
-                allow_dismiss: true,
-                newest_on_top: false,
-                showProgressbar: false,
-                placement: {
-                    from: "top",
-                    align: "right"
-                }});
+            // $.notify({
+            //     // options
+            //     icon: 'glyphicon glyphicon-' + type + '-sign',
+            //     message: message,
+            // },{
+            //     // settings
+            //     element: 'body',
+            //     position: null,
+            //     type: type,
+            //     allow_dismiss: true,
+            //     newest_on_top: false,
+            //     showProgressbar: false,
+            //     placement: {
+            //         from: "top",
+            //         align: "right"
+            //     }});
         }
 
         function getRandomLang(){
