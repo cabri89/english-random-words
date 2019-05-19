@@ -137,18 +137,28 @@
             </form>
 
             <div class="whatword">
-                <h4 id="whatWord">Veuillez importer un nouveau fichier.</h4>
+                <h4>
+                  <span id="whatWord">Veuillez importer un nouveau fichier.</span>
+                  <em ng-if="whatWord != ''">
+                    <small class="wordLang" ng-if="lang == 0">Anglais</small>
+                    <small class="wordLang" ng-if="lang == 1">Français</small>
+                    <small class="wordLang" ng-if="lang == 2 && randomLang == 1">Anglais</small>
+                    <small class="wordLang" ng-if="lang == 2 && randomLang == 0">Français</small>
+                  </em>
+                </h4>
             </div>
 
+
             <table class="table table-striped">
-                <caption>Tableau récapitulatif</caption>
+                <caption>Tableau récapitulatif <span ng-if="words.length != 0" >{{ words.length }} / {{ countWords }}</span></caption>
                 <thead>
                     <tr>
                         <th>Anglais</th>
                         <th>Français</th>
                     </tr>
                 </thead>
-                <tr ng-repeat="wordStat in allWordsStats | orderBy : 'loose' track by $index" class="{{wordStat.loose}}">
+                <tr ng-repeat="wordStat in allWordsStats | orderBy : '-' track by $index" class="{{wordStat.loose}}">
+
                     <td>{{wordStat.english}}</td>
                     <td>{{wordStat.french}}</td>
                 </tr>

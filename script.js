@@ -1,13 +1,12 @@
 angular.module('english',[])
-.controller('randomwords', ['$scope', function($scope) {
-
+.controller('randomwords', ['$scope', '$log', function($scope, $log) {
     $scope.words = [];
     $scope.whatWord = "";
     $scope.allWordsStats = [];
+    $scope.lang = 0;
+    $scope.randomLang = 0;
     var saveWords = [];
     var saveWordsLoose = [];
-    var lang = 0;
-    var randomLang = 0;
 
     $scope.loadFile = function() {
             notification("info", "Fichier en cours d'importation.")
@@ -70,9 +69,10 @@ angular.module('english',[])
                         var allText = rawFile.responseText;
                         try {
                             $scope.words = JSON.parse(allText);
+                            $scope.countWords = $scope.words.length;
                             saveWords = JSON.parse(allText);
                             $scope.allWordsStats = [];
-                            $('.langRadio' + lang).removeClass("active");
+                            $('.langRadio' + $scope.lang).removeClass("active");
                             $('.langRadio').addClass("disabled");
                             $scope.newWord(0);
                             notification("success", "Fichier importé avec succés.")
@@ -83,6 +83,7 @@ angular.module('english',[])
                     }
                 }
             }
+
             rawFile.send(null);
         }
 
@@ -90,24 +91,24 @@ angular.module('english',[])
             if ($scope.words.length != 0) {
                 if (pass == 0) {
                     $scope.whatWord = $scope.words[Math.floor(Math.random()*$scope.words.length)];
-                    if (lang == 0) {
+                    if ($scope.lang == 0) {
                         document.getElementById('whatWord').innerHTML = $scope.whatWord.english;
                     }
 
-                    if (lang == 1) {
+                    if ($scope.lang == 1) {
                         document.getElementById('whatWord').innerHTML = $scope.whatWord.french;
                     }
 
-                    if (lang == 2) {
+                    if ($scope.lang == 2) {
                         getRandomLang();
-                        if (randomLang == 0) {
+                        if ($scope.randomLang == 0) {
                             document.getElementById('whatWord').innerHTML = $scope.whatWord.french;
                         }else {
                             document.getElementById('whatWord').innerHTML = $scope.whatWord.english;
                         }
                     }
                 }else {
-                    notification("danger", "Mot passé : " + $scope.whatWord.french + " -> " + $scope.whatWord.english)
+                    // notification("danger", "Mot passé : " + $scope.whatWord.french + " -> " + $scope.whatWord.english)
                     $scope.whatWord.loose = 'danger';
                     saveWordsLoose.push($scope.whatWord);
                     $scope.allWordsStats.push($scope.whatWord);
@@ -115,7 +116,7 @@ angular.module('english',[])
                 }
             }else {
                 $('.langRadio').removeClass("disabled");
-                $('.langRadio' + lang).addClass("active");
+                $('.langRadio' + $scope.lang).addClass("active");
                 document.getElementById('whatWord').innerHTML = "Veuillez importer un nouveau fichier.";
             }
         }
@@ -123,20 +124,20 @@ angular.module('english',[])
         $scope.testWord = function() {
             if ($scope.whatWord) {
                 var successWord = 0;
-                if (lang == 0) {
+                if ($scope.lang == 0) {
                     if ($scope.wordTest == $scope.whatWord.french) {
                         successWord = 1;
                     }
                 }
 
-                if (lang == 1) {
+                if ($scope.lang == 1) {
                     if ($scope.wordTest == $scope.whatWord.english) {
                         successWord = 1;
                     }
                 }
 
-                if (lang == 2) {
-                    if (randomLang == 0) {
+                if ($scope.lang == 2) {
+                    if ($scope.randomLang == 0) {
                         if ($scope.wordTest == $scope.whatWord.english) {
                             successWord = 1;
                         }
@@ -147,7 +148,7 @@ angular.module('english',[])
                     }
                 }
                 if (successWord == 1) {
-                    notification("success", "Mot trouvé : " + $scope.whatWord.french + " -> " + $scope.whatWord.english)
+                    // notification("success", "Mot trouvé : " + $scope.whatWord.french + " -> " + $scope.whatWord.english)
                     $scope.whatWord.loose = 'success';
                     $scope.allWordsStats.push($scope.whatWord);
                     finishWord();
@@ -158,7 +159,7 @@ angular.module('english',[])
         $scope.resetParty = function() {
             angular.copy(saveWords,$scope.words)
             $scope.allWordsStats = [];
-            $('.langRadio' + lang).removeClass("active");
+            $('.langRadio' + $scope.lang).removeClass("active");
             $('.langRadio').addClass("disabled");
             $scope.newWord(0);
         }
@@ -167,13 +168,13 @@ angular.module('english',[])
             angular.copy(saveWordsLoose,$scope.words)
             $scope.allWordsStats = [];
             saveWordsLoose = [];
-            $('.langRadio' + lang).removeClass("active");
+            $('.langRadio' + $scope.lang).removeClass("active");
             $('.langRadio').addClass("disabled");
             $scope.newWord(0);
         }
 
         $scope.changeLangWord = function(t) {
-            lang = t;
+            $scope.lang = t;
         }
 
         finishWord = function() {
@@ -184,26 +185,26 @@ angular.module('english',[])
         }
 
         function notification(type,message) {
-            // $.notify({
-            //     // options
-            //     icon: 'glyphicon glyphicon-' + type + '-sign',
-            //     message: message,
-            // },{
-            //     // settings
-            //     element: 'body',
-            //     position: null,
-            //     type: type,
-            //     allow_dismiss: true,
-            //     newest_on_top: false,
-            //     showProgressbar: false,
-            //     placement: {
-            //         from: "top",
-            //         align: "right"
-            //     }});
+            $.notify({
+                // options
+                icon: 'glyphicon glyphicon-' + type + '-sign',
+                message: message,
+            },{
+                // settings
+                element: 'body',
+                position: null,
+                type: type,
+                allow_dismiss: true,
+                newest_on_top: false,
+                showProgressbar: false,
+                placement: {
+                    from: "top",
+                    align: "right"
+                }});
         }
 
         function getRandomLang(){
-            randomLang = Math.floor(Math.random() * 2);
+            $scope.randomLang = Math.floor(Math.random() * 2);
         }
 
     }]);
